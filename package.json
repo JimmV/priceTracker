@@ -1,0 +1,17 @@
+{
+  "name": "pricetracker",
+  "version": "1.0.0",
+  "description": "To get and store crypto prices",
+  "main": "priceJob.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jim / Chat",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "node-cron": "^4.2.1",
+    "pg": "^8.16.3"
+  }
+}
