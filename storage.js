@@ -14,7 +14,7 @@ async function initPriceTable() {
     CREATE TABLE IF NOT EXISTS prices (
       id SERIAL PRIMARY KEY,
       symbol TEXT NOT NULL,
-      timestamp TIMESTAMP NOT NULL,
+      timestamp TIMESTAMPTZ NOT NULL,
       price NUMERIC,
       volume NUMERIC,
       market_cap NUMERIC,
